@@ -9,15 +9,13 @@ import { ProfileComponent } from './profile/profile.component';
 
 
 @NgModule({
-  declarations: [
-    DashboardComponent,
-    HomeComponent,
-    SettingsComponent,
-    ProfileComponent
-  ],
-  imports: [
-    CommonModule,
-    DashboardRoutingModule
-  ]
+    imports: [
+        CommonModule,
+        DashboardRoutingModule,
+        DashboardComponent,
+        HomeComponent,
+        SettingsComponent,
+        ProfileComponent
+    ]
 })
 export class DashboardModule { }
